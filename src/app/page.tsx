@@ -33,7 +33,7 @@ export default function HeroSection() {
       {/* Image Placeholder */}
       <div className="relative opacity-0 fade-up w-60 h-60 rounded-full overflow-hidden shadow-md mb-8 md:mb-0 md:ml-39 order-first md:order-last">
         <Image
-          src="/my-profile-pic.JPG" // Make sure this path is correct
+          src="/my-profile-pic.jpg" // Make sure this path is correct
           alt="Your Profile Picture"
           layout="fill"
           objectFit="cover"

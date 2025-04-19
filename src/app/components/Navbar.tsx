@@ -14,7 +14,7 @@ const Navbar = () => {
         {/* Logo + Brand */}
         <div className="flex items-center space-x-3">
           <Image
-            src="/my profile pic.jfif"
+            src="/my-profile-pic.jpg"
             alt="Logo"
             width={40}
             height={40}
