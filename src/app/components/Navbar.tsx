@@ -63,7 +63,10 @@ const Navbar = () => {
         </ul>
 
         {/* Hamburger Button */}
-        <div className="md:hidden">
+        <div className="md:hidden flex gap-3">
+        <div className=" ">
+        <ThemeToggle />
+        </div>
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-white focus:outline-none"
@@ -130,9 +133,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <li className="list-none">
-          <ThemeToggle />
-          </li>
+          
           <button
             className="absolute top-6 right-6 text-white hover:text-orange-400 text-4xl font-bold"
             onClick={() => setIsOpen(false)}

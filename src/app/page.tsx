@@ -33,7 +33,7 @@ export default function HeroSection() {
       {/* Image Placeholder */}
       <div className="relative opacity-0 fade-up w-60 h-60 rounded-full overflow-hidden shadow-md mb-8 md:mb-0 md:ml-39 order-first md:order-last">
         <Image
-          src="/my profile pic.jfif" // Make sure this path is correct
+          src="/my-profile-pic.JPG" // Make sure this path is correct
           alt="Your Profile Picture"
           layout="fill"
           objectFit="cover"
@@ -53,7 +53,7 @@ export default function HeroSection() {
         I create high-performance eCommerce websites by combining Wix Studio and Next.js — giving you the best of both worlds. With Wix, you can easily update your content, products, and design without touching any code. Behind the scenes, Next.js powers the site with speed, SEO, and advanced features. This hybrid setup means your store is fast, secure, and scalable — while still being easy for you to manage anytime.
         </p>
         <Link
-          href="#portfolio"
+          href="portfolio"
           className="inline-flex opacity-0 fade-up items-center gap-2 bg-sky-500 text-white px-5 py-2 rounded-full shadow hover:bg-sky-600 transition"
         >
           See My Work <FaArrowRight size={14} />

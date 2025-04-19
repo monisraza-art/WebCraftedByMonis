@@ -2,6 +2,7 @@
 
 import Testomonials from "../components/Testomials";
 import TopSales from "../components/TopSales";
+import DemoRedirect from "../components/DemoRedirect";
 
 export default function PortfolioSection() {
   return (
@@ -20,6 +21,7 @@ export default function PortfolioSection() {
   <TopSales/>
        
     <Testomonials/>
+   <DemoRedirect/>
   </section>
   
 
